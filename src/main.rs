@@ -222,6 +222,8 @@ fn main() -> std::io::Result<()> {
         let asar = known_folder_path(FolderId::ProgramFiles)
             .unwrap()
             .join("nodejs")
+            .join("node_modules")
+            .join(".bin")
             .join("asar.cmd");
 
         if !asar.exists() || !asar.is_file() {

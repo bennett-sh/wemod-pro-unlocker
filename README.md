@@ -37,7 +37,7 @@ wemod-pro-unlocker
 |---------------------------	|-------------------------------------------------------------------------------------------------------------	|----------------------------------
 | --wemod-dir <dir>         	| Path to your WeMod dir. By default, this is "%localappdata%/WeMod".                                         	| C:\WeMod
 | --wemod-version <version> 	| The version to patch. By default, this will be the latest version installed. 	                                | 8.3.6
-| --asar-bin <bin>          	| Path to the asar bin. By default, this will be "Program Files/nodejs/asar.cmd".                             	| C:\asar\asar.cmd
+| --asar-bin <bin>          	| Path to the asar bin. By default, this will be "Program Files/nodejs/node_modules/.bin/asar.cmd".             	| C:\asar\asar.cmd
 | --account <json>            | Overwrites the account data. You can find all available options by searching for /v3/account in the dev tools | username:'myaccount',email:'test'
 
 <br/>
